@@ -1,5 +1,7 @@
 rcjs.rcjs.home_pagetitle,Rentcars Car Rental. The largest car rental portal in Brazil
+rcjs.rcjs.second_pagetitle,HomePagetitle
 rcjs.returnHomePage,Return to Home page
+rcjs.returnSecondPage,HomePagetitle1
 rcrest.second.bestpriceguarResume,dHomePagetitle
 rcrest.second.onlinebooking,gee
 rcrest.second.rentcars_in_p,geg
@@ -20,7 +22,11 @@ rcsite.second.affiliatesrentcars,heh
 rcsite.second.appboxtop_apprentcars_title,igjregopijregoi
 rcsite.second.apprentcars,lfwe
 rcsite.second.apprentcars_android,HomePagetitle
+rcsite.second.apprentcars_iphone,Free Rentcars.com App for IPhone
 rcsite.second.authorizingoffers,Authorizing the sending of the best offers...
 rcsite.second.banner_discountedoff,Up to <strong> 60% cheaper! </strong>
+rcsite.second.banner_discountedoff1,Up to 60% of
 rcsite.second.banner_discountedoff2,Discount
 rcsite.second.banner_discountedoffint,<strong> 5% discount </strong> on billet
+rcsite.second.banner_discountedoffintdetail,Exclusive discount for international reservations. Refer to Payment terms when issuing your online reservation.
+rcsite.second.banner_discountedoff_text,Car rental with up to 60% discount in major cities and airports in the world.
