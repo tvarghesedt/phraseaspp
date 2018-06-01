@@ -1,0 +1,13 @@
+phraseapp:
+  access_token: 250def7c4fce314e7489457175499b88927a5346e4338370ebc8ce961b78dba3
+  project_id: da3265f4099b8d0b8419e858ea8660ca
+  push:
+    sources:
+    - file: /var/www/vhosts/phraseapp/<locale_code>/*.csv
+      params:
+        file_format: csv
+  pull:
+    targets:
+    - file: /var/www/vhosts/phraseapp/<locale_code>/pt-BR.csv
+      params:
+        file_format: csv
