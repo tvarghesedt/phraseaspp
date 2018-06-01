@@ -4,15 +4,18 @@ phraseapp:
   push:
     sources:
     - file: /<locale_code>/*.csv
+      update_translations: false
       params:
         file_format: csv
   pull:
     targets:
       #pt-BR
     - file: /<locale_code>/pt-BR.csv
+      update_translations: false
       params:
         file_format: csv
       #secondsource
     - file: /<locale_code>/secondsource.csv
+      update_translations: false
       params:
         file_format: csv
