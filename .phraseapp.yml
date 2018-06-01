@@ -14,7 +14,9 @@ phraseapp:
       - file: ./path/to/locales/pt-BR.<locale_name>.yml
         params:
           tag: "pt-BR"
+          file_format: csv
       # secondsource
       - file: ./path/to/locales/secondsource.<locale_name>.yml
         params:
           tag: "secondsource"
+          file_format: csv
