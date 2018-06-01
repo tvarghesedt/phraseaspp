@@ -11,12 +11,12 @@ phraseapp:
   pull:
     targets:
       # pt-BR
-      - file: ./<locale_code>/pt-BR.<locale_name>.yml
+      - file: ./<locale_code>/pt-BR.<locale_name>.csv
         params:
           tag: "pt-BR"
           file_format: csv
       # secondsource
-      - file: ./<locale_code>/secondsource.<locale_name>.yml
+      - file: ./<locale_code>/secondsource.<locale_name>.csv
         params:
           tag: "secondsource"
           file_format: csv
