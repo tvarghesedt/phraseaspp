@@ -3,7 +3,7 @@ phraseapp:
   project_id: da3265f4099b8d0b8419e858ea8660ca
   push:
     sources:
-    - file: /pt-BR/<tag>.csv
+    - file: ./<locale_code>/<tag>.csv
       update_translations: true
       params:
         file_format: csv
@@ -11,12 +11,12 @@ phraseapp:
   pull:
     targets:
       # pt-BR
-      - file: ./path/to/locales/pt-BR.<locale_name>.yml
+      - file: ./<locale_code>/pt-BR.<locale_name>.yml
         params:
           tag: "pt-BR"
           file_format: csv
       # secondsource
-      - file: ./path/to/locales/secondsource.<locale_name>.yml
+      - file: ./<locale_code>/secondsource.<locale_name>.yml
         params:
           tag: "secondsource"
           file_format: csv
