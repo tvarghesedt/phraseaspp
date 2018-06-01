@@ -3,11 +3,11 @@ phraseapp:
   project_id: da3265f4099b8d0b8419e858ea8660ca
   push:
     sources:
-    - file: /var/www/vhosts/phraseapp/<locale_code>/*.csv
+    - file: /<locale_code>/*.csv
       params:
         file_format: csv
   pull:
     targets:
-    - file: /var/www/vhosts/phraseapp/<locale_code>/pt-BR.csv
+    - file: /<locale_code>/pt-BR.csv
       params:
         file_format: csv
