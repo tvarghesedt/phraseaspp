@@ -3,7 +3,7 @@ phraseapp:
   project_id: 51631e816f91ab01e8ea566578c94d5f
   push:
     sources:
-    - file: ./pt-BR/*.csv
+    - file: ./pt-BR/pt-BR.csv
       params:
         file_format: csv
         locale_id: 0e97c32fc5439843a544b1d21cf5a9f1
