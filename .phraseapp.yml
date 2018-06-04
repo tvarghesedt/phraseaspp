@@ -3,20 +3,14 @@ phraseapp:
   project_id: da3265f4099b8d0b8419e858ea8660ca
   push:
     sources:
-    - file: ./pt-BR/<tag>.<locale_name>.csv
-      update_translations: true
+    - file: /var/www/vhosts/phraseapp/pt-BR/*.csv
       params:
         file_format: csv
-        locale_id: 781847f05db6b329af8b327c31c39794
   pull:
     targets:
-      # pt-BR
-      - file: ./<locale_code>/pt-BR.<locale_name>.csv
-        params:
-          tag: "pt-BR"
-          file_format: csv
-      # secondsource
-      - file: ./<locale_code>/secondsource.<locale_name>.csv
-        params:
-          tag: "secondsource"
-          file_format: csv
+    - file: /var/www/vhosts/phraseapp/<locale_code>/pt-BR.csv
+      params:
+        file_format: csv
+    - file: /var/www/vhosts/phraseapp/<locale_code>/secondsource.csv
+      params:
+        file_format: csv
