@@ -7,6 +7,10 @@ phraseapp:
       params:
         file_format: csv
         locale_id: 0e97c32fc5439843a544b1d21cf5a9f1
+    - file: ./pt-BR/secondsource.csv
+      params:
+        file_format: csv
+        locale_id: 0e97c32fc5439843a544b1d21cf5a9f1
   pull:
     targets:
     - file: ./<locale_code>/pt-BR.csv
