@@ -1,6 +1,6 @@
 phraseapp:
   access_token: 250def7c4fce314e7489457175499b88927a5346e4338370ebc8ce961b78dba3
-  project_id: da3265f4099b8d0b8419e858ea8660ca
+  project_id: 51631e816f91ab01e8ea566578c94d5f
   push:
     sources:
     - file: /var/www/vhosts/phraseapp/pt-BR/*.csv
