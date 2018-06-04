@@ -18,10 +18,12 @@ phraseapp:
     - file: ./<locale_code>/pt-BR.csv
       params:
         file_format: csv
+        tag: "pt-BR"
         update_translations: true
         locale_id: afa19ab970ea6926e6115460201f8d8c
     - file: ./<locale_code>/secondsource.csv
       params:
         file_format: csv
+        tag: "secondsource"
         update_translations: true
         locale_id: afa19ab970ea6926e6115460201f8d8c
